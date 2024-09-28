@@ -17,23 +17,12 @@
 .music-player{
     background: #ffe0e5;
     width: 400px;
+    height:550px;
     padding: 25px 35px;
     text-align: center;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-nav.circle{
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    background: #fff;
-    color: #f53192;
-    box-shadow: 0 5px 10px rgba(255,26,26,0.22);
-}
+
+
 .song-img{
     width: 220px;
     border-radius: 50%;
@@ -41,7 +30,7 @@ nav.circle{
     box-shadow: 0 10px 60px rgba(255,26,26,0.22);
 }
 .music-player h1{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     color: #333;
     margin-top: 20px;
