@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <div class="container">
         <div class="music-player">
-            <div style="text-align: left;"><img src="https://cdn2.iconfinder.com/data/icons/music-player-black/32/music_player_black-08-512.png"width='20px'></div>
-            
-           
-               
-            
-          
+            <div style="text-align: left;"><img
+                    src="https://cdn2.iconfinder.com/data/icons/music-player-black/32/music_player_black-08-512.png"
+                    width='20px'></div>
             <img src="Media/EAF62C93-ADB1-4394-9B5E-19BE880C5E5F.jpg" class="song-img">
-            <h1>Despacito</h1>
-            <p>Song by Luis Fonsi ft.Daddy Yankee </p><br>
-            
-            <audio id="audio-player" controls>
-                <source src="Media/despacito.mp3">
-            </audio>
+            <h1 id="song-title">Song Title</h1>
+            <p id="artist">Artist</p><br>
+            <audio id="audio-player" controls src="song1.mp3"></audio>
             <br><br>
-            <div class="controls"></div>
-                
-                <button id="prev-btn" onclick="prevSong()"><img src="https://cdn2.iconfinder.com/data/icons/music-player-black/32/music_player_black-06-512.png"width="20px"></button>
-                <button id="pause-btn" onclick="pauseSong()"><img src="https://cdn2.iconfinder.com/data/icons/music-player-black/32/music_player_black-03-512.png"width="20px"></button>
-                <button id="next-btn" onclick="nextSong()"><img src="https://cdn2.iconfinder.com/data/icons/music-player-black/32/music_player_black-05-512.png" width="20px"></button>
-              </div>
-              
-              
-            
+            <div class="controls">
+
+                <button id="prev-btn" onclick="prevSong()"><img
+                        src="https://cdn2.iconfinder.com/data/icons/music-player-black/32/music_player_black-06-512.png"
+                        width="20px"></button>
+                <button id="pause-btn" onclick="pauseSong()"><img
+                        src="https://cdn2.iconfinder.com/data/icons/music-player-black/32/music_player_black-03-512.png"
+                        width="20px"></button>
+                <button id="next-btn" onclick="nextSong()"><img
+                        src="https://cdn2.iconfinder.com/data/icons/music-player-black/32/music_player_black-05-512.png"
+                        width="20px"></button>
+            </div>
+
+
+
 
         </div>
     </div>
-    
+    <script src="app.js"></script>
+
 </body>
+
 </html>
